@@ -66,12 +66,12 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 body {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: black;
+ 
   font-family: var(--default-font);
-  background: url(../img/bg.jpg) top center no-repeat;
-  background-size: cover;
-  position: relative;
+  background: url(../img/bg.jpg) center  no-repeat;
+  background-size:contain;
+  position:sticky;
 }
 
 body::before {
